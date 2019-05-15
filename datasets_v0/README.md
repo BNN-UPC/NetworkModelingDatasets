@@ -32,21 +32,23 @@ In this repository you can find the links to download data sets for different ne
   
   10. Total number of packets lost in the network. This is the sum of all the losses in the previous vector
 
-* tfrecords/
+* tfrecords/train: Contains the training subset of the pre processed data. The proportion of training and evaluation is 80% for training and 20% for evaluation, the files in the train folder are the input data of RouteNet from which the model will be trained from.
+
+* tfrecords/evaluate: Contains the evaluation subset of the pre processed data, they are also input data for RouteNet. The evaluation files will be used to evaluate the performance of RouteNet on every train step.
 
 Datasets can be downloaded from these links:
 
-* NSFNet topology: http://knowledgedefinednetworking.org/data/nsfnet.zip  
+* NSFNet topology: http://knowledgedefinednetworking.org/data/datasets_v0/nsfnet.tar.gz
 <p align="center"> 
   <img src="/assets/nsfnet_topology.png" width="400" alt>
 </p>  
-* GEANT2 topology: http://knowledgedefinednetworking.org/data/geant2.zip
+* GEANT2 topology: http://knowledgedefinednetworking.org/data/datasets_v0/geant2.tar.gz
 <p align="center"> 
   <img src="/assets/geant2_topology.png" width="400" alt>
 </p>
-* Synth50 topology: http://knowledgedefinednetworking.org/data/GBN.zip
+* Synth50 topology: http://knowledgedefinednetworking.org/data/datasets_v0/synth50.tar.gz
 <p align="center"> 
-  <img src="/assets/synth50_topology.png" width="400" alt>
+  <img src="/assets/synth50_topology.png" width="500" alt>
 </p>  
   
 
