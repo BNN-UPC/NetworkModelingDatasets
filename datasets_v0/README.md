@@ -2,7 +2,7 @@
 
 In this repository you can find the links to download datasets for different network topologies. Each topology corresponds to a compressed file with the following structure:
 
-* *.ned file that describes the network topology. We consider that all the links in the topology have a capacity of 10 Gbps.
+* *.ned file that describes the network topology. We consider that all the links in the topology have the same capacity.
 
 * Routing: The /routing* directory contains the different routing schemes simulated. Each routing file includes a matrix that describes the destination-based Routing Information Base (RIB) at each node:
 
@@ -14,7 +14,7 @@ In this repository you can find the links to download datasets for different net
 
 Where <lambda> is the traffic intensity and <routing_file> indicates the routing scheme used in the simulation. Each line in the dGlobal_0_*.txt files corresponds to a simulation with different traffic matrices probabilistically generated from a given traffic intensity (lambda). We describe below the data structure of each line (i.e., each simulation). Note that in a topology with ‘n’ nodes, nodes are enumerated in the range [0, n-1].
   
-  1. Bandwidth (in Gbps) generated for each source-destination pair in the network. This is a flattened vector with nxn fields, where the index for a particular src-dst pair is:
+  1. Bandwidth generated for each source-destination pair in the network. This is a flattened vector with nxn fields, where the index for a particular src-dst pair is:
   
          index=srcnode∗n+dstnode
 
