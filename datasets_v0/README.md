@@ -12,9 +12,9 @@ In this repository you can find the links to download datasets for different net
       
       dGlobal_0_<lambda>_<routing_scheme>.txt
 
-Where <lambda> reprsents the traffic intensity and <routing_scheme> is an identifier of the routing file used in the simulation. Each line in the dGlobal_0_*.txt files corresponds to a simulation with different traffic matrices probabilistically generated from a given traffic intensity (lambda). We describe below the data structure of each line (i.e., each simulation). Note that in a topology with ‘n’ nodes, nodes are enumerated in the range [0, n-1].
+Where <lambda> represents the traffic intensity and <routing_scheme> is an identifier of the routing file used in the simulation. Each line in the dGlobal_0_*.txt files corresponds to a simulation with different traffic matrices probabilistically generated from a given traffic intensity (lambda). We describe below the data structure of each line (i.e., each simulation). Note that in a topology with ‘n’ nodes, nodes are enumerated in the range [0, n-1].
   
-  1. Bandwidth generated for each source-destination pair in the network. This is a flattened vector with nxn fields, where the index for a particular src-dst pair is:
+  1. Bandwidth (in kbps) generated for each source-destination pair in the network. This is a flattened vector with nxn fields, where the index for a particular src-dst pair is:
   
          index=srcnode∗n+dstnode
 
