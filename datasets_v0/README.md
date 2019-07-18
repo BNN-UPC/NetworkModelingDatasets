@@ -70,10 +70,12 @@ All the datasets can be downloaded from these links:
 <p align="center"> 
   <img src="/assets/nsfnet_topology.png" width="400" alt>
 </p>  
+
 * GEANT2 topology: http://knowledgedefinednetworking.org/data/datasets_v0/geant2.tar.gz
 <p align="center"> 
   <img src="/assets/geant2_topology.png" width="400" alt>
 </p>
+
 * 50-nodes topology: http://knowledgedefinednetworking.org/data/datasets_v0/synth50.tar.gz
 <p align="center"> 
   <img src="/assets/synth50_topology.png" width="500" alt>
