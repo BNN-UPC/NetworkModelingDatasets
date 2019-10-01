@@ -6,9 +6,10 @@ This repository contains datasets with simulation results of delay, jitter and p
 
 * Compressed files (.tar.gz) with the simulation results. Each file contains samples simulated in network scenarios with a particular routing scheme and a given traffic intensity. Particularly, the filenames use the following structure:             
       
-      results_<topology_name>_<lambda>_<routing_scheme>.tar.gz
+      results_<topology_name>_<lower boundary lambda max>-<upper_boundary lambda max>_<routing_scheme>_0_124.tar.gz
 
-    Where \<lambda> represents the traffic intensity and <routing_scheme> is an identifier of the routing configuration used in the simulation.
+    Where \<lower boundary lambda max>-<upper_boundary lambda max> represents the traffic intensity and <routing_scheme> 
+    is an identifier of the routing configuration used in the simulation.
 
     Each of these files contain the following data:
 
@@ -76,12 +77,18 @@ All the datasets can be downloaded from these links:
 </p>
 
 * GBN topology: http://knowledgedefinednetworking.org/data/datasets_v1/gbnbw.tar.gz
+<p align="center"> 
+  <img src="/assets/gbn_topology.png" width="400" alt>
+</p>
 
 * GEANT2 topology: http://knowledgedefinednetworking.org/data/datasets_v1/geant2bw.tar.gz
 <p align="center"> 
   <img src="/assets/geant2_topology.png" width="400" alt>
 </p>
 
-* <a src="http://sndlib.zib.de/home.action?show=/germany50.overview.action%3Fframeset">germany50</a> topology: http://knowledgedefinednetworking.org/data/datasets_v1/germany50bw.tar.gz
+* germany50 topology: http://knowledgedefinednetworking.org/data/datasets_v1/germany50bw.tar.gz
+<p align="center"> 
+  <img src="/assets/germany50_topology.png" width="400" alt>
+</p>
 
 Please, if you have any doubt on how to process the datasets do not hesitate to contact us by sending an email to kdn-contactus@knowledgedefinednetworking.org. Also, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
