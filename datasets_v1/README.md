@@ -6,7 +6,7 @@ This repository contains datasets with simulation results of delay, jitter and p
 
 * Compressed files (.tar.gz) with the simulation results. Each file contains samples simulated in network scenarios with a particular routing scheme and a given traffic intensity. Particularly, the filenames use the following structure:             
       
-      results_<topology_name>_<lower boundary lambda max>-<upper_boundary lambda max>_<routing_scheme>_0_124.tar.gz
+      results_<topology_name>_<lower lambda max>-<upper lambda max>_<routing_scheme>_0_124.tar.gz
 
     Where \<lower boundary lambda max>-<upper_boundary lambda max> represents the range of traffic intensity and <routing_scheme> is an identifier of the routing configuration used in the simulations.
 
