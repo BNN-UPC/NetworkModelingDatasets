@@ -90,4 +90,4 @@ All the datasets can be downloaded from these links:
   <img src="/assets/germany50_topology.png" width="400" alt>
 </p>
 
-Please, if you have any doubt on how to process the datasets do not hesitate to contact us by sending an email to kdn-contactus@knowledgedefinednetworking.org. Also, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
+Please, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
