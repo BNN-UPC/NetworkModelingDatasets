@@ -91,6 +91,7 @@ Finally, we have a set of compressed files with 100 simulation samples each one.
     - Packet size 2: Second packet size option (bits).
 * simulationResults.txt: Contains the measurements obtained by our network simulator for every sample. Each line in ‘simulationResults.txt’ corresponds to a simulation using the topology, routing and queue scheduling configuration specified in the ‘input_files.txt’, and the input traffic matrices specified in the ‘traffic.txt’ file.
 At the beginning of the line, and separated by “|”, there are global network statistics separated by commas (,). These global parameters are:
+
       1.- global_packets: Number of packets transmitted in the network per time unit (packets/time unit).
       2.- global_losses: Packets lost in the network per time unit (packets/time unit). 
       3.- global_delay: Average per-packet delay over all the packets transmitted in the network (time units)
