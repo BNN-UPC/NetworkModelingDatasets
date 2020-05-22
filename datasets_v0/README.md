@@ -1,4 +1,4 @@
-# Datasets
+# Datasets v0
 
 This repository contains datasets with simulation results of delay, jitter and packet loss in three different network topologies. It is divided in three compressed files (.tar.gz) corresponding to each topology. Each file follows the structure below:
 
@@ -20,43 +20,43 @@ This repository contains datasets with simulation results of delay, jitter and p
   
       1.- Bandwidth (in kbps) trasmitted in each source-destination pair in the network (in both directions).
   
-             bandwidth[src_node][dst_node] = (src_node∗n+dst_node)*3
+             bandwidth[src_node][dst_node] = line[(src_node∗n+dst_node)*3]
   
       2.- Absolute number of packets transmitted in each source-destination pair (in both directions).
   
-             pkts_transmitted[src_node][dst_node] = (src_node∗n+dst_node)*3 + 1
+             pkts_transmitted[src_node][dst_node] = line[(src_node∗n+dst_node)*3 + 1]
   
       3.- Absolute number of packets dropped in each source-destination pair.
   
-             pkts_dropped[src_node][dst_node] = (src_node∗n+dst_node)*3 + 2
+             pkts_dropped[src_node][dst_node] = line[(src_node∗n+dst_node)*3 + 2]
   
       4.- Average per-packet delay over the packets transmitted in each source-destination pair. 
   
-             avg_delay[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7  
+             avg_delay[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7]  
   
       5.- Percentile 10 of the per-packet delay over the packets transmitted in each source-destination pair.
   
-             delay_p_10[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 1
+             delay_p_10[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 1]
   
       6.- Percentile 20 of the per-packet delay over the packets transmitted in each source-destination pair.
   
-             delay_p_20[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 2
+             delay_p_20[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 2]
   
       7.- Percentile 50 (median) of the per-packet delay over the packets transmitted in each source-destination pair.
   
-             delay_p_50[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 3
+             delay_p_50[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 3]
   
       8.- Percentile 80 of the per-packet delay over the packets transmitted in each source-destination pair.
   
-             delay_p_80[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 4
+             delay_p_80[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 4]
   
       9.- Percentile 90 of the per-packet delay over the packets transmitted in each source-destination pair.
   
-             delay_p_90[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 5
+             delay_p_90[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 5]
   
       10.- Variance of the per-packet delay (jitter) over the packets transmitted in each source-destination pair.
   
-             jitter[src_node][dst_node] = n*n*3 + (src_node∗n+dst_node)*7 + 6
+             jitter[src_node][dst_node] = line[n*n*3 + (src_node∗n+dst_node)*7 + 6]
     
     - params.ini: Contains some input parameters used in our simulator. The most relevant ones at the user-level are 'simulationDuration' and 'repeat'. 'simulationDuration' is the total duration of the simulation (in relative time units). For instance, this value is used to tune the simulation time in order to ensure that the behavior of performance metrics such as delay reachs a stationary state. Note that some simulation results like the total number of packets transmitted or dropped depend also on this parameter. Likewise, the 'repeat' parameter defines the number of simulation samples included in the current 'tar.gz' file.
     
@@ -82,4 +82,4 @@ All the datasets can be downloaded from these links:
 </p>  
   
 
-Please, if you have any doubt on how to process the datasets do not hesitate to contact us by sending an email to kdn-contactus@knowledgedefinednetworking.org. Also, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
+Please, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
