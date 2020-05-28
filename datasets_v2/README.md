@@ -97,7 +97,7 @@ At the beginning of the line, and separated by “|”, there are global network
       3.- global_delay: Average per-packet delay over all the packets transmitted in the network (time units)
    After the “|” and separated by semicolon (;) we have the list of all path. Finally the metrics of the related to a path are separated by semicolon (;). Likewise, the different measurements (e.g., delay, jitter) for each path are separated by commas (,). So, to obtain a pointer to the metrics of a specific path from ‘node_src’ to ‘node_dst’, one can split the CSV format considering the semicolon (;) as separator:
 
-      1.- Bandwidth (in bits/time unit) trasmitted in each source-destination pair in the network (in both directions). 
+      1.- Bandwidth (in kbits/time unit) trasmitted in each source-destination pair in the network (in both directions). 
       2.- Absolute number of packets transmitted in each src-dst pair (in both directions).  
       3.- Absolute number of packets dropped in each src-dst pair.  
       4.- Average per-packet delay over the packets transmitted in each src-dst pair (in time units).  
