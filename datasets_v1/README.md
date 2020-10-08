@@ -1,5 +1,7 @@
 # Datasets v1
 
+> Note: It is highly recommended to use the API provided [here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/dataset_v1) to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
+
 This repository contains datasets with simulation results of delay, jitter and packet loss in four different network topologies. It is divided in four compressed files (.tar.gz) corresponding to different topologies. Each file follows the structure below:
 
 * *.ned file: Describes the network topology including the link capacities.
