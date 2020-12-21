@@ -10,7 +10,7 @@ This repository contains datasets with simulation results of delay, jitter and p
       
       results_<topology_name>_<lower lambda max>-<upper lambda max>_<routing_scheme>_0_124.tar.gz
 
-    Where \<lower lambda max>-<upper lambda max> represents the range of traffic intensity and <routing_scheme> is an identifier of the routing configuration used in the simulations.
+    Where \<lower lambda max>-\<upper lambda max> represents the range of traffic intensity and <routing_scheme> is an identifier of the routing configuration used in the simulations.
 
     Each of these files contain the following data:
 
