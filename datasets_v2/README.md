@@ -118,4 +118,4 @@ The datasets can be downloaded from these links:
 | [Training Dataset](https://challenge.bnn.upc.edu/downloads?download=2:gnnet-data-set-training) | 5,97GB | f0060fba6b4ac9f761d58799d5b555d0 |
 |[Validation dataset](https://challenge.bnn.upc.edu/downloads?download=3:gnnet-data-set-validation) | 1,12GB | ab0a215e18577f7964cd1431387a3f68 |
 
-Please, if you have any doubt on how to process the datasets do not hesitate to [register](https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/challenge-kdn) and send a mail to the mailing list [kdn-contactus@knowledgedefinednetworking.org](mailto:kdn-contactus@knowledgedefinednetworking.org).
+Please, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
