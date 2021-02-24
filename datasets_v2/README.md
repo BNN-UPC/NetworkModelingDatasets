@@ -1,6 +1,8 @@
 # Dataset description
 
-This repository contains datasets with simulation results of delay, jitter and packet loss for three different network topologies: NSFNET (14 nodes), GBN (17 nodes) and GEANT2 (24 nodes).
+This dataset was used for the [Graph Neural Networking challenge 2020](https://bnn.upc.edu/challenge2020/).
+
+The repository contains datasets with simulation results of delay, jitter and packet loss for three different network topologies: NSFNET (14 nodes), GBN (17 nodes) and GEANT2 (24 nodes).
 
 The dataset is divided in two compressed files (.tar.gz) corresponding to the training and validation datasets. The training dataset contains only samples simulated in the NSFNET and GEANT2 network topologies, while the validation dataset contains samples simulated in GBN. Likewise, the test dataset that we will release during the evaluation phase will contain only samples simulated in GBN, with very similar distributions to the samples used in the validation dataset.
 
