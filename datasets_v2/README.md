@@ -2,11 +2,30 @@
 
 This dataset was used for the [Graph Neural Networking challenge 2020](https://bnn.upc.edu/challenge2020/).
 
-The repository contains datasets with simulation results of delay, jitter and packet loss for three different network topologies: NSFNET (14 nodes), GBN (17 nodes) and GEANT2 (24 nodes).
+This repository contains datasets with simulation results of delay, jitter and packet loss for four different network topologies: NSFNET (14 nodes), GBN (17 nodes), REDIRIS (19 nodes) and GEANT2 (24 nodes).
 
-The dataset is divided in two compressed files (.tar.gz) corresponding to the training and validation datasets. The training dataset contains only samples simulated in the NSFNET and GEANT2 network topologies, while the validation dataset contains samples simulated in GBN. Likewise, the test dataset that we will release during the evaluation phase will contain only samples simulated in GBN, with very similar distributions to the samples used in the validation dataset.
+<table style="text-align:center;">
+  <tr>
+    <td><img src="/assets/nsfnet_topology.png" width="400" alt></td>
+    <td><img src="/assets/gbn_topology.png" width="400" alt></td>
+  </tr>
+  <tr>
+    <td>NSFNET Topology</td>
+    <td>GBN Topology</td>
+  </tr>
+   <tr>
+     <td><img src="/assets/rediris_topology.png" width="400" alt></td>
+     <td><img src="/assets/geant2_topology.png" width="400" alt></td>
+  </tr>
+  <tr>
+     <td>REDIRIS Topology</td>
+     <td>GEANT2 Topology</td>
+  </tr>
+ </table>
 
-In particular, the dataset has its focus on adding queue scheduling policies, where each node is configured with different scheduling policies according to the scenarios explained below. The following policies are used: Strict Priority (SP), where packets in queues with more priority are transmitted first. Weighted Fair Queueing (WFQ) and Deficit Round Robin (DRR).
+We provide three datasets for training, validation, and test. The training dataset contains samples simulated in the NSFNET and GEANT2 network topologies, while the validation dataset contains samples simulated in GBN. The test dataset contains samples simulated in the RedIRIS network topology. We initially released a test dataset that does not contain labels of per-flow performance metrics (e.g., delay), as it was used to evaluate participants' solutions during the challenge. After the end of the competition, we released a new version of this latter dataset including these labels. Note that the test dataset contains samples with similar distributions to those included in the validation dataset.
+
+These datasets have their focus on adding queue scheduling policies that may be complex to model. To this end, we simulate scenarios where devices are configured with different scheduling policies. The following policies policies are used: Strict Priority (SP), where packets in queues with more priority are transmitted first, Weighted Fair Queueing (WFQ), and Deficit Round Robin (DRR).
 
 For all the queue scheduling policies implemented, we consider always three queues with different priorities on nodes. Thus, each sample of the dataset includes a traffic matrix where flows may have 3 different Type of Services (ToS=[0,1,2]) respectively associated to one of the three queues on nodes (e.g., ToS=0 is associated to the first queue of nodes). At the beginning of each simulation, a ToS is associated to the flows generated in a source-destination path. All the packets of the path will have the same ToS. Packets are generated on each flow following a Poisson distribution. To this end, we use an exponential time distribution (TimeDist.EXPONENTIAL_T) to model inter-packet arrival times. Likewise, we use a binomial distribution (SizeDist.BINOMIAL_S) to model packet size. The maximum bitrate that paths may have (maxAvgLambda) is selected randomly for each simulation, between 400 and 2000 bits per time unit. Note that packet delay is limited to 20 time units for all the simulation scenarios.
 
