@@ -5,3 +5,10 @@ Network modeling is essential to build efficient network operation and optimizat
 In the context of Machine Learning (ML), Neural Network (NN) models seem to be promising to build lightweight network models with sufficient accuracy. However, early ML-based attempts did not fulfilled yet the high expectations. We claim that one reason behind the slow progress of ML-based solutions for network modeling is the lack of public datatsets. Datasets are necessary to train and validate ML models, and generating datasets with accurate end-to-end performance metrics (e.g., delay, jitter, drops) in realistic network scenarios is often too expensive given the necessity to make simulations at the packet-level granularity (i.e., packet-level network simulators). Moreover, we need public datasets in order to benchmark new solutions. Without a public dataset comparison is very difficult since each work is evaluated with different data. 
 
 In this repository, we provide datasets with samples generated with a custom-built simulator in OMNet++. Our datasets include samples with different input topologies, routing configurations and traffic patterns, and each sample contains accurate measurements of relevant end-to-end key performance metrics resulting from the simulation. Particularly, they contain statistics of the per-source/destination pair packet-level delay, jitter and losses. Further details can be consulted on the instructions provided in the root directory of every dataset. We hope this will encourage researchers to design, train and evaluate new ML-based network models as well as benchmark them to compare their performance against previous state-of-the-art proposals evaluated over the same dataset.
+
+Contributors of the datasets:
+* Albert López Brescó (Main developer)
+* José Suárez-Varela
+* Miquel Ferriol-Galmés
+* Albert Cabellos-Aparicio
+* Pere Barlet-Ros
