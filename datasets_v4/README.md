@@ -1,3 +1,5 @@
+## Dataset description
+
 This repository contains datasets with simulation results of delay, jitter and packet loss for three different network topologies: NSFNET (14 nodes), GBN (17 nodes) and GEANT2 (24 nodes) plus a few samples for validation purpose using topologies of Topology ZOO. 
 
 The training dataset contains samples simulated in the NSFNET and GEANT2 network topologies, while the validation dataset contains samples simulated in GBN.
@@ -16,7 +18,7 @@ To experiment with the generalization capabilities of the GNN, we also provide a
 
 ### Real traces dataset
 
-The last dataset pretends to use more realistic traffic matrices. We use real-world traffic matrices from SNDlib library [2] scaled to the maximum intensity demand generated in the training dataset . Since the traffic matrices only contain traffic aggregation of each source-destination pair, we use a recent snapshot from the MAWI repository (SamplePoint-F,Oct. 2020) [3] to extract realistic packet inter-arrival times. Then, we scale these inter-arrivals according to the values in the traffic matrices. Regarding the mapping of source-destination flows to ToS classes, we follow the same distribu-tion from a real ISP [4]. Finally, we simulate this scenario in three different topologies: GBN, GEANT, and ABILENE . The remaining simulation parameters are the same as in the previous sections.
+The last dataset pretends to use more realistic traffic matrices. We use real-world traffic matrices from SNDlib library [2] scaled to the maximum intensity demand generated in the training dataset . Since the traffic matrices only contain traffic aggregation of each source-destination pair, we use a recent snapshot from the MAWI repository (SamplePoint-F,Oct. 2020) [3] to extract realistic packet inter-arrival times. Then, we scale these inter-arrivals according to the values in the traffic matrices. Regarding the mapping of source-destination flows to ToS classes, we follow the same distribu-tion from a real ISP [4]. Finally, we simulate this scenario in three different topologies: GBN (Nobel), GEANT, and ABILENE, extracting 1000 samples for each one. The remaining simulation parameters are the same as in the previous sections.
 
 ## Processing the dataset
 
@@ -85,8 +87,9 @@ The datasets can be downloaded from these links:
 #### Real traces
 |**File**  | **Size** | **MD5SUM** |
 |--|--|--|
-|[Abilene Dataset](https://bnn.upc.edu/download/dataset-v4-abilene-sndlib/) | 22 MB | cc845ba157b968029ec265dac35166f4 |
-|[GEANT2 Dataset](https://bnn.upc.edu/download/dataset-v4-geant2-sndlib/) | 39 MB | 71234171a2b3c4a45fa4fa6b719c7d05 |
+|[Abilene Dataset](https://bnn.upc.edu/download/dataset-v4-abilene-sndlib/) | 20 MB | 6d67068fc498470e57ddc5b530bec363 |
+|[NOBEL-Germany Dataset](https://bnn.upc.edu/download/dataset-v4-nobel-sndlib/) | 24 MB | 0b618ff1d39d3d5b96c29327583e8e51 |
+|[GEANT Dataset](https://bnn.upc.edu/download/dataset-v4-geant-sndlib/) | 27 MB | 7c420c395b245b8a1fbfe7474a217e6d |
 
 
 ### References
