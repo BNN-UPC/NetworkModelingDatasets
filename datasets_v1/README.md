@@ -72,22 +72,22 @@ This repository contains datasets with simulation results of delay, jitter and p
     
 All the datasets can be downloaded from these links:
 
-* NSFNet topology: http://knowledgedefinednetworking.org/data/datasets_v1/nsfnetbw.tar.gz
+* NSFNet topology: https://knowledgedefinednetworking.org/data/datasets_v1/nsfnetbw.tar.gz
 <p align="center"> 
   <img src="/assets/nsfnet_topology.png" width="400" alt>
 </p>
 
-* GBN topology: http://knowledgedefinednetworking.org/data/datasets_v1/gbnbw.tar.gz
+* GBN topology: https://knowledgedefinednetworking.org/data/datasets_v1/gbnbw.tar.gz
 <p align="center"> 
   <img src="/assets/gbn_topology.png" width="400" alt>
 </p>
 
-* GEANT2 topology: http://knowledgedefinednetworking.org/data/datasets_v1/geant2bw.tar.gz
+* GEANT2 topology: https://knowledgedefinednetworking.org/data/datasets_v1/geant2bw.tar.gz
 <p align="center"> 
   <img src="/assets/geant2_topology.png" width="400" alt>
 </p>
 
-* germany50 topology: http://knowledgedefinednetworking.org/data/datasets_v1/germany50bw.tar.gz
+* germany50 topology: https://knowledgedefinednetworking.org/data/datasets_v1/germany50bw.tar.gz
 <p align="center"> 
   <img src="/assets/germany50_topology.png" width="400" alt>
 </p>
