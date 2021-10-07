@@ -2,6 +2,12 @@
 
 > Note: It is highly recommended to use the API provided [here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/dataset_v0) to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
 
+> These datasets where used in the following paper (demo):<br>
+> Suárez-Varela, José, et al. "Challenging the generalization capabilities of Graph Neural Networks for network modeling." _Proceedings of the ACM SIGCOMM 2019 Conference Posters and Demos_. 2019.<br>
+> Link to repository: https://github.com/knowledgedefinednetworking/demo-routenet<br>
+> Link to paper \[DOI\]: https://dl.acm.org/doi/10.1145/3342280.3342327
+
+### Dataset description
 This repository contains datasets with simulation results of delay, jitter and packet loss in three different network topologies. It is divided in three compressed files (.tar.gz) corresponding to each topology. Each file follows the structure below:
 
 * *.ned file: Describes the network topology including the link capacities. This file is used in OMNeT++ to import the topology.
