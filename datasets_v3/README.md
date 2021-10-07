@@ -74,7 +74,7 @@ traffic.txt: Contains the traffic parameters used by the simulator to generate t
 At the beginning of the line, and separated by “|”, there are global network statistics separated by commas (,). These global parameters are:<br>
           1.- global_packets: Number of packets transmitted in the network per time unit (packets/time unit).<br>
           2.- global_losses: Packets lost in the network per time unit (packets/time unit).<br>
-          3.- global_delay: Average per-packet delay over all the packets transmitted in the network (time units)After the “|” and separated by semicolon (;) we have the list of all path. Finally the metrics of the related to a path are separated by commas (,). Likewise, the different measurements (e.g., delay, jitter) for each path are separated by commas (,). So, to obtain a pointer to the metrics of a specific path from ‘node_src’ to ‘node_dst’, one can split the CSV format considering the semicolon (;) as separator:
+          3.- global_delay: Average per-packet delay over all the packets transmitted in the network (time units)After the “|” and separated by semicolon (;) we have the list of all path. Finally the metrics of the related to a path are separated by commas (,). Likewise, the different measurements (e.g., delay, jitter) for each path are separated by commas (,). So, to obtain a pointer to the metrics of a specific path from ‘node_src’ to ‘node_dst’, one can split the CSV format considering the semicolon (;) as separator:<br>
 `list_metrics[src_node*n+dst_node] = path_metrics (from src to dst)`
 
   Where ‘list_metrics’ is the array of strings obtained from splitting the line after the “|” character using semicolon. Note that in a topology with ‘n’ nodes, nodes are enumerated in the range [0, n-1]
