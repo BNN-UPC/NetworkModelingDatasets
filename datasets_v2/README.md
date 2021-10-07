@@ -1,6 +1,10 @@
-# Dataset description
+# Datasets v3
 
-This dataset was used for the [Graph Neural Networking challenge 2020](https://bnn.upc.edu/challenge2020/).
+> Note: It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
+
+> These datasets were used in the [Graph Neural Networking challenge 2020](https://bnn.upc.edu/challenge/gnnet2020/).
+
+### Dataset description
 
 This repository contains datasets with simulation results of delay, jitter and packet loss for four different network topologies: NSFNET (14 nodes), GBN (17 nodes), REDIRIS (19 nodes) and GEANT2 (24 nodes).
 
