@@ -55,7 +55,7 @@ ToS are assigned to flows with the following probability: 10% for ToS=0, 30% for
 **Scenario 3:** In this scenario each node is configured randomly with one of the queue scheduling policies (SP, WFQ or DRR). For WFQ and DRR, we also define two sets with 5 queue weights profiles respectively. A total of 100 scheduling configurations (i.e., nodes + policies + weight profiles) are generated with this criterion for each topology, and each simulation selects randomly one of these configurations.
 
   
-  WFQ Profiles
+**WFQ Profiles**
 
 |  **Weight profile**| **ToS = 0** | **ToS = 1** | **ToS = 2** |
 |--|--|--|--|
@@ -65,7 +65,7 @@ ToS are assigned to flows with the following probability: 10% for ToS=0, 30% for
 | 4 | 50% | 40% | 10% |
 | 5 | 75% | 25% | 5% |
 
-DRR Profiles
+**DRR Profiles**
 |  **Weight profile**| **ToS = 0** | **ToS = 1** | **ToS = 2** |
 |--|--|--|--|
 | 1 | 80% | 10% | 10% |
