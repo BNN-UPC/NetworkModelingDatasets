@@ -1,4 +1,4 @@
-# Datasets v3
+# Datasets v2
 
 > Note: It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
 
