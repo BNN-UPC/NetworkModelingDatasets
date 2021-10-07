@@ -1,6 +1,6 @@
 # Datasets v2
 
-> Note: It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
+> Note: It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to process directly the raw data, you can find the description of the dataset format below.
 
 > These datasets were used in the [Graph Neural Networking challenge 2020](https://bnn.upc.edu/challenge/gnnet2020/).
 
@@ -82,11 +82,10 @@ ToS are assigned to flows with the following probability: 10% for ToS=0, 30% for
 
 For each topology, we define 100 routing configurations which are variations of shortest path. For each simulation, one routing is selected randomly between the 100 candidates.
 
-## Processing the dataset
+> It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to process directly the raw data, you can find the description of the dataset format in the section below.
 
-It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
+## Processing the dataset from raw data
 
-  
 The root directory of the compressed files contains the ‘routings’ directory where routing configuration files are stored. These files include a matrix describing the destination-based Routing Information Base (RIB) at each node:  
 Routing_matrix(src node , dst node) = output port to reach the dst node from the src node.
 
