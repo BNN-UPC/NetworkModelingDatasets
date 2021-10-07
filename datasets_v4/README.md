@@ -1,6 +1,6 @@
 # Datasets v4
 
-> Note: It is highly recommended to use the API provided [[here](https://github.com/BNN-UPC/datanetAPI/tree/dataset_v4)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
+> Note: It is highly recommended to use the API provided [[here](https://github.com/BNN-UPC/datanetAPI/tree/dataset_v4)] to easily read and process samples from the dataset. However, if you prefer to process directly the raw data, you can find the description of the dataset format below.
 
 ### Dataset description
 
@@ -24,7 +24,9 @@ To experiment with the generalization capabilities of the GNN, we also provide a
 
 The last dataset pretends to use more realistic traffic matrices. We use real-world traffic matrices from SNDlib library [2] scaled to the maximum intensity demand generated in the training dataset . Since the traffic matrices only contain traffic aggregation of each source-destination pair, we use a recent snapshot from the MAWI repository (SamplePoint-F,Oct. 2020) [3] to extract realistic packet inter-arrival times. Then, we scale these inter-arrivals according to the values in the traffic matrices. Regarding the mapping of source-destination flows to ToS classes, we follow the same distribu-tion from a real ISP [4]. Finally, we simulate this scenario in three different topologies: GBN (Nobel), GEANT, and ABILENE, extracting 1000 samples for each one. The remaining simulation parameters are the same as in the previous sections.
 
-## Processing the dataset
+> It is highly recommended to use the API provided [[here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/challenge2020)] to easily read and process samples from the dataset. However, if you prefer to process directly the raw data, you can find the description of the dataset format in the section below.
+
+## Processing the dataset from raw data
 
 It is highly recommended to use the API provided [[here](https://github.com/BNN-UPC/datanetAPI/tree/dataset_v4)] to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
 
