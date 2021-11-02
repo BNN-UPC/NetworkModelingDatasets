@@ -113,7 +113,7 @@ The datasets can be downloaded from these links:
 |[Training Dataset](https://bnn.upc.edu/download/ch21-training-dataset/) | 6,9 GB | 43594151cbddd968a5ebc38614999cd5 |
 |[Validation dataset](https://bnn.upc.edu/download/ch21-validation-dataset/) | 2,2 GB | cd1da75419add2700607bbd44d4b0a66 |
 |[Test dataset](https://bnn.upc.edu/download/ch21-test-dataset/) | 524 MB | ddf346bedff4d0dfafc1591e89e0914a |
-|Test dataset (with labels) | TBD | TBD |
+|[Test dataset (with labels)](https://bnn.upc.edu/download/ch21-test-dataset-with-labels/) | 1.2 GB | 555d88b091a66c716a1b73cf2d28ccd4 |
 
 ### Contact
 Please, if you would like to be notified with new dataset releases or discuss anything related to the datasets, you can also subscribe to the mailing list kdn-users@knowledgedefinednetworking.org (Link: https://mail.knowledgedefinednetworking.org/cgi-bin/mailman/listinfo/kdn-users).
