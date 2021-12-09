@@ -79,7 +79,7 @@ At the beginning of the line, and separated by “|”, there are global network
 
   Where ‘list_metrics’ is the array of strings obtained from splitting the line after the “|” character using semicolon. Note that in a topology with ‘n’ nodes, nodes are enumerated in the range [0, n-1]
 This pointer will return a list of measurements for a particular src-dst path. In this list measurements are separated by comma (,) and provide the following measurements:<br>
-      1.- Bandwidth (in kbits/time unit) transmitted in each source-destination pair in the network.<br>
+      1.- Average traffic rate (in kbits/time unit) transmitted in each source-destination pair in the network.<br>
       2.- Number of packets transmitted in each src-dst pair per time unit.<br>
       3.- Number of packets dropped in each src-dst pair per time unit.<br>
       4.- Average per-packet delay over the packets transmitted in each src-dst pair (in time units).<br>
