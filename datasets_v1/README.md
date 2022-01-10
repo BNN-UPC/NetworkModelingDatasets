@@ -2,7 +2,7 @@
 
 > Note: It is highly recommended to use the API provided [here](https://github.com/knowledgedefinednetworking/datanetAPI/tree/dataset_v1) to easily read and process samples from the dataset. However, if you prefer to use directly the raw data, you can find the description of the dataset format below.
 
-> These datasets where used in the following paper:<br>
+> These datasets were used in the following paper:<br>
 > Rusek, Krzysztof, _et al_. "RouteNet: Leveraging Graph Neural Networks for network modeling and optimization in SDN." _IEEE Journal on Selected Areas in Communications_ 38.10 (2020): 2260-2270.<br>
 > Link to paper \[ArXiv\]: https://arxiv.org/abs/1910.01508<br>
 > Link to code repository: https://github.com/knowledgedefinednetworking/net2vec/tree/RouteNet-JSAC19/routenet
