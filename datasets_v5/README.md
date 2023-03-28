@@ -1,6 +1,9 @@
 # Datasets v5
 
-> Note: To facilitate reading and processing of the dataset, we recommend using the API provided [[here](https://github.com/BNN-UPC/datanetAPI/tree/BNNetSimulator)]. The API is included within all the datasets for ease of use. However, if you prefer to process the raw data directly, you can find the description of the dataset format below.  
+> Note 1: This dataset has been generated with [BNNetSimulator](https://github.com/BNN-UPC/BNNetSimulator)
+
+> Note 2: To facilitate reading and processing of the dataset, we recommend using the API provided [[here](https://github.com/BNN-UPC/datanetAPI/tree/BNNetSimulator)]. The API is included within all the datasets for ease of use. However, if you prefer to process the raw data directly, you can find the description of the dataset format below.  
+
 ## Dataset description
 This repository contains a collection of datasets that contain simulation results for delay, jitter, and packet drops. These results were obtained in the context of the publication "RouteNet-Erlang: A Graph Neural Network for Network Performance Evaluation" [1], and are intended to be used as a benchmark for network modeling and optimization. The datasets provided can be splitted into three categories:  
 

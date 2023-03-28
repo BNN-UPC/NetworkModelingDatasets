@@ -6,6 +6,8 @@ In the context of Machine Learning (ML), Neural Network (NN) models seem to be p
 
 In this repository, we provide datasets with samples generated with a custom-built simulator in OMNet++. Our datasets include samples with different input topologies, routing configurations and traffic patterns, and each sample contains accurate measurements of relevant end-to-end key performance metrics resulting from the simulation. Particularly, they contain statistics of the per-source/destination pair packet-level delay, jitter and losses. Further details can be consulted on the instructions provided in the root directory of every dataset. We hope this will encourage researchers to design, train and evaluate new ML-based network models as well as benchmark them to compare their performance against previous state-of-the-art proposals evaluated over the same dataset.
 
+These datasets have been created using BNNetSimulator. The simulator is now available to the community as a docker image. More information about it can be found in [this repository](https://github.com/BNN-UPC/BNNetSimulator).
+
 Contributors of the datasets:
 * Albert López Brescó (Main developer)
 * José Suárez-Varela
