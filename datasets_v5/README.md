@@ -200,7 +200,7 @@ Then we have a colon (:) followed by a list of parameters related to each of the
 
  1. The average utilization of the outgoing port (in the range [0, 1]).
  2. Average packets lost in the outgoing QoS queue (in the range [0, 1]).
- 3. Average port occupancy in packets or bits depending if the buffer size is specified in packets or bits
+ 3. Average port occupancy, in packets or bits depending if the buffer size is specified in packets or bits, is  the average occupancy of an equivalent queue that would produce the same average delay (queuing and service delay) as experienced by packets going through the QoS queue.
  4. Maximum occupancy seen on the QoS queue in packets or bits depending if the buffer size is specified in packets or bits
  5. Average packet size from all outgoing packets going through the queue (bits).
 
