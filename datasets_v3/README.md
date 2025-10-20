@@ -123,3 +123,10 @@ Please, if you would like to be notified with new dataset releases or discuss an
 ### References
 [1] Generating network topologies that obey power laws. IEEE. Global Telecommunications Conference 2000. C.R. Palmer & J.G. Steffan <br>
 [2] The Internet Topology Zoo. http://www.topology-zoo.org
+
+
+<br>
+This dataset is part of the Spanish I+D+i project TRAINER-A (ref. PID2020-118011GB-C21), funded by MCIN/AEI/10.13039/501100011033.
+<p align="left"> 
+  <img src="/assets/logo_ministerio.png" width="500" alt>
+</p> 

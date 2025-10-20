@@ -291,3 +291,10 @@ Then we have a colon (:) followed by a list of parameters related to each of the
 [3] SNDLIB: http://sndlib.zib.de/home.action
 
 [4] MAWI REPOSITORY:  https://mawi.wide.ad.jp/mawi/
+
+
+<br>
+This dataset is part of the Spanish I+D+i project TRAINER-A (ref. PID2020-118011GB-C21), funded by MCIN/AEI/10.13039/501100011033.
+<p align="left"> 
+  <img src="/assets/logo_ministerio.png" width="500" alt>
+</p> 
